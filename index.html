@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js"/>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <header>
+      <h1>Simple Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">contact</a></li>
+      </nav>
+        </header>
+      <section id="about">
+    <h1>About Me</h1>
+    <p>Hello,welcome to my personal website. I'm a passionate software engineer who loves 
+      to create,learn and also explore new technologies.I actually enjoy working on projescts
+    that challenge my creativity and problem-solving skills. </p>
+      </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <p>HTML:Structuring web content.</p>
+      <p>CSS: Styling. </p>
+      <p>JavaScript:Doing functionality.</p>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>First personal website.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:yusufhamdi137@gmail.com"> yusufhamdi137@gmail.com</a></p>
+      <form id="'contactForm">
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"
+        placeholder="Write your message here..."></textarea><br><br>
+        <button type="submit"
+        id="sendMessageButton">sendMessage</button>
+      </form>
+    </section>
+    <footer>
+      <p>2024 My Simple Portfolio</p>
+    </footer>
+    
     <script src="script.js"></script>
   </body>
 </html>

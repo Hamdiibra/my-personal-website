@@ -1,4 +1,44 @@
-body {
-    background: blue;
+header {
+    padding: 1rem;
+    background-color: black;
+    text-align: center;
+    color: #fff;
   }
-  
+body{
+    font-family: Arial, sans-serif;
+    background-color: palegoldenrod;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+nav a {
+    font-weight: bold;
+    color: white;
+    margin:0 10px;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+section {
+    padding: 20px;
+}
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: black;
+}
+footer{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+form{
+    margin:10px 0
+}
